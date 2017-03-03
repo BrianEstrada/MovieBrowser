@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Movie Browser</string>
+    <string name="bundle_key_movie" translatable="false">bundle_key_movie</string>
+
+    <!-- Transition Values-->
+    <string name="transition_name_image" translatable="false">TransitionImage</string>
+
+    <!-- Navigation Strings -->
+    <string name="search">Search</string>
+    <string name="popular">Popular</string>
+    <string name="favorites">Favorites</string>
+    <string name="top">Top</string>
+
+    <!-- General Strings-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rating">Rating</string>
+    <string name="released">Released</string>
+    <string name="favorite">Favorite</string>
+    <string name="no_reviews">No Reviews</string>
+    <string name="no_videos">No Videos</string>
+    <string name="videos">Videos</string>
+    <string name="overview">Overview</string>
+    <string name="reviews">Reviews</string>
+
+    <!-- Example Strings -->
+    <string name="example_title">Lorem ipsum dolor sit amet, consectetur.</string>
+    <string name="example_synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie ac est id porttitor. Suspendisse erat ligula, consequat vitae tristique nec, suscipit ut nibh. Maecenas vitae porttitor tortor, quis maximus felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac sollicitudin orci. Vivamus id tortor consectetur, auctor magna vel, scelerisque massa. Pellentesque eu nunc nec velit molestie auctor vel vel mi. Fusce hendrerit massa quis sapien tincidunt, ut molestie eros facilisis. Fusce imperdiet malesuada mi, vitae accumsan ante aliquam eget. Suspendisse potenti. Sed eu risus ut metus cursus dapibus. Fusce tincidunt porta tortor at interdum.</string>
+    <string name="example_author">Brian Estrada</string>
+    <string name="example_review">Pellentesque id varius libero, ac fringilla sapien. Sed magna lectus, gravida ut cursus quis, ultricies a libero. Phasellus faucibus augue id elit finibus tempor. Donec aliquet leo quam, ac gravida lacus laoreet rhoncus. Pellentesque vitae erat ut purus maximus pellentesque. Quisque dignissim urna euismod porttitor efficitur. Nam id sem ornare, ullamcorper urna eu, pharetra nunc. Integer luctus erat lectus, vitae euismod est lacinia eget. Aliquam volutpat gravida erat ut rhoncus. Fusce ut semper augue. In aliquet augue ac ante cursus, quis placerat purus ultricies. Sed sit amet sagittis urna, vitae rhoncus nibh. Quisque facilisis, ipsum efficitur tristique dignissim, odio tellus dignissim enim, eget tincidunt augue lectus quis eros. Ut orci massa, finibus quis erat vel, volutpat consectetur mauris. In ultricies, velit ac ultricies porta, ante augue interdum nunc, id feugiat justo odio et erat.</string>
+    <string name="example_year">2016</string>
+    <string name="example_rating">3.8</string>
+    <string name="example_video_title">Aliquam vitae purus porta, bibendum</string>
+    <string name="example_video_resolution">1080</string>
+    <string name="example_video_source">Youtube</string>
+    <string name="bundle_key_movie_state">bundle_key_movie_state</string>
+    <string name="content_descriptor_poster_image">Poster Image</string>
+    <string name="no_favorites">No favorites yet :)</string>
+    <string name="search_hint">Search...</string>
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Divider" parent="">
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- View Movie Styles-->
+
+    <style name="AppTheme.ViewMovie.TextAppearance.Title" parent="Base.TextAppearance.AppCompat.Title.Inverse">
+
+    </style>
+
+    <style name="AppTheme.ViewMovie.TextAppearance.Caption" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ViewMovie.TextAppearance.Body" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ViewMovie.Tab" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/primary</item>
+        <item name="tabBackground">@color/primary</item>
+        <item name="tabSelectedTextColor">@color/primary_light</item>
+        <item name="tabIndicatorColor">@color/accent</item>
+        <item name="tabTextAppearance">@style/AppTheme.ViewMovie.TextAppearance.Tab</item>
+    </style>
+
+
+    <style name="AppTheme.ViewMovie.TextAppearance.Tab" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!-- Overview Fragment -->
+
+    <style name="AppTheme.OverviewFragment.TextAppearance.Body" parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/iv_video_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/video_image_placeholder" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            tools:text="@string/example_title" />
+
+        <TextView
+            android:id="@+id/tv_video_resolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            tools:text="@string/example_video_resolution" />
+
+        <TextView
+            android:id="@+id/tv_video_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            tools:text="@string/example_video_source" />
+    </LinearLayout>
+
+</LinearLayout>
