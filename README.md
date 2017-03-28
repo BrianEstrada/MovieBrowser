@@ -18,7 +18,7 @@ The Library is written using the MVP Architecture.
 
 # Screenshots
 
-![Screen1](https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen1.png)
-![Screen2](https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen2.png)
-![Screen3](https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen3.png)
-![Screen4](https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen4.png)
+<img src="https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen1.png "  width="250">
+<img src="https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen2.png" width="250">
+<img src="https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen3.png" width="250">
+<img src="https://github.com/BrianEstrada/MovieBrowser/raw/master/Screen4.png" width="250">
