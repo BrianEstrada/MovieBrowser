@@ -64,7 +64,7 @@ dependencies {
     compile 'com.github.arimorty:floatingsearchview:2.0.3'
 }
 
-def getMyApiKey(String property) {
+static def getMyApiKey(String property) {
     Properties properties = new Properties()
     properties.load(new FileInputStream("keys"))
     return "\"" + properties.getProperty(property) + "\""
